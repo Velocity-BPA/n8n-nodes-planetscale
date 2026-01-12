@@ -1,0 +1,39 @@
+# Source files (only publish dist)
+nodes/
+credentials/
+test/
+scripts/
+
+# Configuration
+.eslintrc.js
+.prettierrc
+tsconfig.json
+gulpfile.js
+jest.config.js
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test coverage
+coverage/
+
+# Git
+.git/
+.gitignore
+
+# Development files
+.env
+.env.*
+*.tmp
+*.temp
